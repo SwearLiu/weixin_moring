@@ -5,17 +5,16 @@ server:
 
 wechat:
   config:
-      token: wx810b937ef508ce8e
     #配置一个文字的模板ID
-    singleTemplateId:	 1ffec66d50ad9f37ad668114942a9793
+    singleTemplateId: fbsWUWm0c65HtEUGnMy6OTh16nI1exftQT7MxSIfaR8
     template:
       #早安模板
       morningTemplate:
         #模板ID
-        templateId: 	oWhRg4sAkDG_eBncxW52mlpHal8D1kalF-QpB8_BORY
+        templateId: fbsWUWm0c65HtEUGnMy6OTh16nI1exftQT7MxSIfaR8
         #是否关注的用户全发送，ture为是，当值为ture时，sendOpenId 为排除发送对象的微信用户，当值为false为否，sendOpenId为发送对象的微信用户
-        allSend: true
-        filterOpenIds: oVy2p5tfPBcUYELNZMDWOWGNPQPw
+        allSend: false
+        filterOpenIds:
 #          - oK0U562Y5ijqYRpGUtNRs0vxxxWU
         parameter:
           #这是默认的设置，如果有用户没设置参数，就按此参数
@@ -29,7 +28,7 @@ wechat:
             cityCode: 411725
             constellation: 射手座
           #把‘填写你的需要特定配置的微信用户号’覆盖位微信用户ID，可以对照正确填写好的配置示例，多用户可以按照格式继续添加下去
-          填写你的需要特定配置的微信用户号: oVy2p5tfPBcUYELNZMDWOWGNPQPw
+           oVy2p5tfPBcUYELNZMDWOWGNPQPw:
             title: 早上好呀呀鸭
             meetDate: '2021-08-11'
             city: 肇庆
@@ -37,7 +36,7 @@ wechat:
             constellation: 狮子座
       #颜文字模板
       emoticonsTemplate:
-        templateId: oWhRg4sAkDG_eBncxW52mlpHal8D1kalF-QpB8_BORY
+        templateId: fbsWUWm0c65HtEUGnMy6OTh16nI1exftQT7MxSIfaR8
         allSend: true
         filterOpenIds:
         parameter:
@@ -46,5 +45,5 @@ wechat:
 #发送者个人信息
 personal:
   info:
-    constellation: 双子座
+    constellation: 摩羯座
 
